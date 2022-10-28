@@ -3,11 +3,11 @@
  *Escuela Superior de Ingeniería y Tecnología
  *Grado en Ingeniería Informática
  *
- *file
+ *file desinflado.cc
  *author Izan Pérez González alu0101543345@ull.edu.es
- *date
+ *date 28 Oct 2022
  *brief
- *@bug There are no known busg
+ *@bug There are no known bugs
  */
 
 #include <iostream>
