@@ -11,15 +11,12 @@
  */
 
 #include <iostream>
-#include <ctype.h>
 
 int main () {
-
-  char letra;
-  std::cin >> letra;
-  if (letra >= 'a' && letra <= 'z') {
-      std::cout << toupper(letra) << std::endl;
-  }else if (letra >= 'A' && letra <= 'Z') {
-      std::cout << tolower(letra) << std::endl;
-  }
-}  
+  std::cout << "Escriba 2 números enteros separados por un espacio para dividirlos" << std::endl;
+  int dividendo, divisor;
+  std::cin >> dividendo >> divisor;
+  int resto{dividendo%divisor};
+  std::cout << dividendo/divisor << " " << resto << std::endl;
+  return 0;
+}

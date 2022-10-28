@@ -22,5 +22,5 @@ int main() {
   std::cout << "Multiplicación: " << numero_1 << " * " << numero_2 << " = " << numero_1 * numero_2 << std::endl;
   std::cout << "División: " << numero_1 << " / " << numero_2 << " = " << numero_1 / numero_2 << std::endl;
   std::cout << "Resto: " << numero_1 << " % " << numero_2 << " = " << numero_1 % numero_2 << std::endl;
-
+  return 0;
 }

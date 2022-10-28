@@ -11,39 +11,19 @@
  */
 
 #include <iostream>
-
-/**int main() {
+#include <cstdlib>
   
-  char letra;
-  std::cin >> letra;
-  for(int i{0}; i <= letra; i++) {
-      int resultado{i} = toupper(resultado{i});
-  std::cout << resultado << std::endl;
-  return 0;
-
-}
-int main()
-{
-   char cadena[] = "esto es una cadena de prueba";
-   int i;
-   
-   for(i = 0; cadena[i]; i++) 
-      cadena[i] = toupper(cadena[i]);
-
-   printf("%s\n", cadena);
-   return 0;
-}*/
-
 int main() {
   
   std::cout << "Introduzca una letra mayúscula o minúscula para ver su otra versión" << std::endl;
-  char letra[1];
+  char letra;
   std::cin >> letra;
-  for (int i{0}; i < letra.length(): i++) {
-    letra[i] = toupper(letra[i]);
-    std::cout << letra << std::ednl;
-  for (int i{0}; i < letra.length(); i++) {
-    letra[i] = tolower(letra[i]);
+  if (letra >= 65 && letra <= 90) {
+    letra=(letra + 32);
+    std::cout << letra << std::endl;
+  }else if (letra >= 97 && letra <= 122) {
+    letra=(letra - 32);
+    std::cout << letra << std::endl;
   }
-  std::cout << leta << std::endl;
+  return 0;
 }
